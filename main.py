@@ -9,8 +9,13 @@ with col1:
 
 with col2:
     st.title("TharunVijay")
-    column="""
+    content="""
     Hello I am Tharun! I am a python programmer, as a student and my educational qualification is B.Tech Information Technology and I am a quick learner and an analytical thinker.
     I am from India.
     """
-    st.info(column)
+    st.info(content)
+
+content2 = """
+Below you can find some of the apps i have built in Python.Feel free to contact me!
+ """
+st.write(content2)
